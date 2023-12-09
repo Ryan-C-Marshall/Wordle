@@ -123,8 +123,8 @@ def updateLists(default, greyLetters, yellowLetters, greenLetters):
 def play():
     possibleWords = allWords.copy()
     greyLetters = []  # list of letters
-    yellowLetters = []  # list of tuples (spot {0 - 4}, letter)
-    greenLetters = []  # list of tuples (spot {0 - 4}, letter)
+    yellowLetters = []  # list of tuples (spot [0 - 4], letter)
+    greenLetters = []  # list of tuples (spot [0 - 4], letter)
     bestWord = ""
 
     while len(possibleWords) > 1:
